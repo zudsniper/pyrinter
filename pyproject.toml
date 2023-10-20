@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools", "wheel"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "pyrinter"
+version = "0.1.0"
+description = "A WiFi printer server with Bonjour and Discord webhook support."
+authors = ["Jason McElhenney <me@zod.tf>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.2"
+pycups = "^2.0.1"
+zeroconf = "^0.36.13"
+loguru = "^0.5.3"
+requests = "^2.26.0"
+python-dotenv = "^0.19.1"
+
